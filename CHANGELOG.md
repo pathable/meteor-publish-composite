@@ -1,7 +1,12 @@
-## v1.8.0
+## v1.8.2
 * Rename package to pathable:publish-composite
 * Support to enable logs using settings (Meteor.settings.public.publishComposite.debug)
-* Support to unblocked publications
+* Support to unblocked publications, by default it stills false
+```javascript
+publishComposite('currentPeople', currentPeoplePublish, {
+  unblock: true,
+});
+```
 
 ## v1.5.2
 
@@ -81,7 +86,6 @@
 * Merge branch 'develop'
 * Update installation instructions in README
 * Specify package name and shorten description so "meteor publish" succeeds
-
 
 ## v1.3.0
 
