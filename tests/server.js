@@ -1,7 +1,7 @@
 import { Meteor } from 'meteor/meteor';
 import { Mongo } from 'meteor/mongo';
 import { _ } from 'meteor/underscore';
-import { enableDebugLogging, publishComposite } from 'meteor/reywood:publish-composite';
+import { enableDebugLogging, publishComposite } from 'meteor/pathable:publish-composite';
 
 import { Authors, Comments, Posts } from './common';
 import { debugLog } from '../lib/logging';

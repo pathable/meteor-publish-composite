@@ -1,8 +1,8 @@
 Package.describe({
-    name: 'reywood:publish-composite',
+    name: 'pathable:publish-composite',
     summary: 'Publish a set of related documents from multiple collections with a reactive join',
-    version: '1.7.0',
-    git: 'https://github.com/englue/meteor-publish-composite.git',
+    version: '1.8.0',
+    git: 'https://github.com/pathable/meteor-publish-composite.git',
 });
 
 Package.onUse((api) => {
@@ -38,7 +38,7 @@ Package.onTest((api) => {
         'practicalmeteor:chai',
     ], 'client');
     api.use([
-        'reywood:publish-composite',
+        'pathable:publish-composite',
         'mongo',
         'underscore',
     ], 'server');

@@ -1,3 +1,8 @@
+## v1.8.0
+* Rename package to pathable:publish-composite
+* Support to enable logs using settings (Meteor.settings.public.publishComposite.debug)
+* Support to unblocked publications
+
 ## v1.5.2
 
 * Fix issue #102: userId is undefined in child publications, wrap `cursor.observe` callbacks with `Meteor.bindEnvironment`
