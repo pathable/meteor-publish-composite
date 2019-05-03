@@ -1,3 +1,6 @@
+## v1.8.3
+* Support to unblock all publications (Meteor.settings.public.publishComposite.unblock)
+
 ## v1.8.2
 * Rename package to pathable:publish-composite
 * Support to enable logs using settings (Meteor.settings.public.publishComposite.debug)
